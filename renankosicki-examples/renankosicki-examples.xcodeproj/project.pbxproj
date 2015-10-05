@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		164CA6001BC3249B00EC0C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CA5FF1BC3249B00EC0C68 /* AppDelegate.swift */; };
+		164CA6021BC3249B00EC0C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CA6011BC3249B00EC0C68 /* ViewController.swift */; };
+		164CA6051BC3249B00EC0C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164CA6031BC3249B00EC0C68 /* Main.storyboard */; };
+		164CA6071BC3249B00EC0C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164CA6061BC3249B00EC0C68 /* Assets.xcassets */; };
+		164CA60A1BC3249B00EC0C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164CA6081BC3249B00EC0C68 /* LaunchScreen.storyboard */; };
 		166436B41BA8608900FE1BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166436B31BA8608900FE1BA5 /* AppDelegate.swift */; };
 		166436B61BA8608900FE1BA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166436B51BA8608900FE1BA5 /* ViewController.swift */; };
 		166436B91BA8608900FE1BA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166436B71BA8608900FE1BA5 /* Main.storyboard */; };
 		166436BB1BA8608900FE1BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166436BA1BA8608900FE1BA5 /* Assets.xcassets */; };
 		166436BE1BA8608900FE1BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166436BC1BA8608900FE1BA5 /* LaunchScreen.storyboard */; };
+		8F6D90A8EC3D80D444856F93 /* Pods_tableview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D47D623A1EF647B77025E5 /* Pods_tableview.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		164CA5FD1BC3249B00EC0C68 /* alamofire-crud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alamofire-crud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		164CA5FF1BC3249B00EC0C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		164CA6011BC3249B00EC0C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		164CA6041BC3249B00EC0C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164CA6061BC3249B00EC0C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		164CA6091BC3249B00EC0C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		164CA60B1BC3249B00EC0C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		166436B11BA8608900FE1BA5 /* tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		166436B31BA8608900FE1BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		166436B51BA8608900FE1BA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,24 +35,51 @@
 		166436BA1BA8608900FE1BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		166436BD1BA8608900FE1BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		166436BF1BA8608900FE1BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604E49AAA8275494467D395F /* Pods-tableview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableview.release.xcconfig"; path = "Pods/Target Support Files/Pods-tableview/Pods-tableview.release.xcconfig"; sourceTree = "<group>"; };
+		765DED7B0E809D9830FAB7B5 /* Pods-tableview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tableview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tableview/Pods-tableview.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D47D623A1EF647B77025E5 /* Pods_tableview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tableview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		166436AE1BA8608900FE1BA5 /* Frameworks */ = {
+		164CA5FA1BC3249B00EC0C68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		166436AE1BA8608900FE1BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6D90A8EC3D80D444856F93 /* Pods_tableview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164CA5FE1BC3249B00EC0C68 /* alamofire-crud */ = {
+			isa = PBXGroup;
+			children = (
+				164CA5FF1BC3249B00EC0C68 /* AppDelegate.swift */,
+				164CA6011BC3249B00EC0C68 /* ViewController.swift */,
+				164CA6031BC3249B00EC0C68 /* Main.storyboard */,
+				164CA6061BC3249B00EC0C68 /* Assets.xcassets */,
+				164CA6081BC3249B00EC0C68 /* LaunchScreen.storyboard */,
+				164CA60B1BC3249B00EC0C68 /* Info.plist */,
+			);
+			path = "alamofire-crud";
+			sourceTree = "<group>";
+		};
 		1664368F1BA8607A00FE1BA5 = {
 			isa = PBXGroup;
 			children = (
 				166436B21BA8608900FE1BA5 /* tableview */,
+				164CA5FE1BC3249B00EC0C68 /* alamofire-crud */,
 				166436991BA8607A00FE1BA5 /* Products */,
+				8B528B55D3CEDBA3C807AE73 /* Pods */,
+				3C749A65C9018F1C47FC2F53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				166436B11BA8608900FE1BA5 /* tableview.app */,
+				164CA5FD1BC3249B00EC0C68 /* alamofire-crud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,16 +105,53 @@
 			path = tableview;
 			sourceTree = "<group>";
 		};
+		3C749A65C9018F1C47FC2F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47D623A1EF647B77025E5 /* Pods_tableview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B528B55D3CEDBA3C807AE73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				765DED7B0E809D9830FAB7B5 /* Pods-tableview.debug.xcconfig */,
+				604E49AAA8275494467D395F /* Pods-tableview.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		164CA5FC1BC3249B00EC0C68 /* alamofire-crud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164CA60E1BC3249B00EC0C68 /* Build configuration list for PBXNativeTarget "alamofire-crud" */;
+			buildPhases = (
+				164CA5F91BC3249B00EC0C68 /* Sources */,
+				164CA5FA1BC3249B00EC0C68 /* Frameworks */,
+				164CA5FB1BC3249B00EC0C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alamofire-crud";
+			productName = "alamofire-crud";
+			productReference = 164CA5FD1BC3249B00EC0C68 /* alamofire-crud.app */;
+			productType = "com.apple.product-type.application";
+		};
 		166436B01BA8608900FE1BA5 /* tableview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 166436C01BA8608900FE1BA5 /* Build configuration list for PBXNativeTarget "tableview" */;
 			buildPhases = (
+				7AC4CA08A332A8D483AA2248 /* Check Pods Manifest.lock */,
 				166436AD1BA8608900FE1BA5 /* Sources */,
 				166436AE1BA8608900FE1BA5 /* Frameworks */,
 				166436AF1BA8608900FE1BA5 /* Resources */,
+				CDC58EC64298AC24F61B8642 /* Embed Pods Frameworks */,
+				9F35EB87B6882F71FA513973 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -93,6 +171,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Renan Kosicki | K-Mobi";
 				TargetAttributes = {
+					164CA5FC1BC3249B00EC0C68 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
 					166436B01BA8608900FE1BA5 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -112,11 +193,22 @@
 			projectRoot = "";
 			targets = (
 				166436B01BA8608900FE1BA5 /* tableview */,
+				164CA5FC1BC3249B00EC0C68 /* alamofire-crud */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		164CA5FB1BC3249B00EC0C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164CA60A1BC3249B00EC0C68 /* LaunchScreen.storyboard in Resources */,
+				164CA6071BC3249B00EC0C68 /* Assets.xcassets in Resources */,
+				164CA6051BC3249B00EC0C68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		166436AF1BA8608900FE1BA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,7 +221,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7AC4CA08A332A8D483AA2248 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F35EB87B6882F71FA513973 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableview/Pods-tableview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDC58EC64298AC24F61B8642 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tableview/Pods-tableview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		164CA5F91BC3249B00EC0C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164CA6021BC3249B00EC0C68 /* ViewController.swift in Sources */,
+				164CA6001BC3249B00EC0C68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		166436AD1BA8608900FE1BA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +291,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		164CA6031BC3249B00EC0C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164CA6041BC3249B00EC0C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		164CA6081BC3249B00EC0C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164CA6091BC3249B00EC0C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		166436B71BA8608900FE1BA5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -161,6 +326,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		164CA60C1BC3249B00EC0C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "alamofire-crud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renankosicki.alamofire-crud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		164CA60D1BC3249B00EC0C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "alamofire-crud/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.renankosicki.alamofire-crud";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		166436A81BA8607A00FE1BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -244,6 +431,7 @@
 		};
 		166436C11BA8608900FE1BA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765DED7B0E809D9830FAB7B5 /* Pods-tableview.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
@@ -255,6 +443,7 @@
 		};
 		166436C21BA8608900FE1BA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604E49AAA8275494467D395F /* Pods-tableview.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tableview/Info.plist;
@@ -267,6 +456,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		164CA60E1BC3249B00EC0C68 /* Build configuration list for PBXNativeTarget "alamofire-crud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164CA60C1BC3249B00EC0C68 /* Debug */,
+				164CA60D1BC3249B00EC0C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		166436931BA8607A00FE1BA5 /* Build configuration list for PBXProject "renankosicki-examples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -283,6 +480,7 @@
 				166436C21BA8608900FE1BA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
